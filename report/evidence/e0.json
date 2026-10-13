@@ -1,0 +1,59 @@
+{
+  "score_version": 1,
+  "name": "E0",
+  "dataset_version": "d10-21e4070301",
+  "split": "test",
+  "coord": "norm1000",
+  "n_images": 311,
+  "parse_valid_rate": 0.518,
+  "missing_predictions": 0,
+  "micro": {
+    "precision": 0.062,
+    "recall": 0.077,
+    "f1": 0.069,
+    "tp": 45,
+    "fp": 680,
+    "fn": 538
+  },
+  "per_class": {
+    "pothole": {
+      "precision": 0.082,
+      "recall": 0.116,
+      "f1": 0.096,
+      "tp": 14,
+      "fp": 156,
+      "fn": 107
+    },
+    "crack": {
+      "precision": 0.048,
+      "recall": 0.064,
+      "f1": 0.055,
+      "tp": 19,
+      "fp": 378,
+      "fn": 280
+    },
+    "manhole": {
+      "precision": 0.079,
+      "recall": 0.074,
+      "f1": 0.076,
+      "tp": 12,
+      "fp": 140,
+      "fn": 151
+    },
+    "other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 6,
+      "fn": 0
+    }
+  },
+  "mean_iou": 0.285,
+  "fp_per_image": 2.19,
+  "f1_ci95": [
+    0.049,
+    0.091
+  ],
+  "meta": {}
+}
